@@ -1,0 +1,72 @@
+.styleTableau{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bordeurTableEx5{
+    border: 3px dashed black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.bordeurTableEx5 td{
+    border: 1px solid red;
+
+}
+.styleTableau tr{
+    height: 30px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: aqua;
+}
+
+.styleTableau th, .styleTableau td{
+    width: 150px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: aqua;
+}
+
+.center{
+    width: 400;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+h2{
+    color: blue;
+}
+.ulEx4{
+    list-style-type: none;
+}
+.ulEx4 li{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px dotted black;
+    border-radius: 5px;
+}
+.ulEx4 li a{
+    text-decoration: none;
+}
+.ulEx4 li:hover{
+    background-color: bisque;
+}
+.fondColor{
+    /*background-color: #C8C8C8;*/
+    background-image: url(images/fond.png);
+    background-size: cover;
+}
+
+.imgEx6{
+    width: 20%;
+    border: 1px solid blue;
+    float: left;
+}
